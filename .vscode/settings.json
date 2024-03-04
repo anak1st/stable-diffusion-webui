@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Conda-diffusion",
+  "terminal.integrated.profiles.windows": {
+    "Conda": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-NoExit", "-Command", "Start-Conda"]
+    },
+    "Conda-diffusion": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "args": ["-NoExit", "-Command", "Start-Conda; conda activate diffusion"]
+    },
+  },
+}
